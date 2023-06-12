@@ -1,0 +1,88 @@
+
+.container{
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+body{
+    background-image: url('./home.avif');
+    background-size: cover;
+}
+
+.home-image{
+    height: 800px;
+    width: 100%;
+    background-size: contain;
+}
+
+a{
+    
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 15px;
+    color: black;
+}
+
+.prod-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.individual-product{
+    width: 300px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.prod-button{
+    width: 50%;
+    background-color: lightblue;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.login-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-bottom:2px solid blue;
+    font-size: 30px;
+}
+
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.login{
+    position: absolute;
+    right: 30px;
+}
